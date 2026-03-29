@@ -2,7 +2,13 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div></div>
+        <div>
+            <header>
+                <div className="navbar">
+
+                </div>
+            </header>
+        </div>
     )
 }
 
