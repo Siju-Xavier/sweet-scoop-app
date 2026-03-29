@@ -1,13 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Header from './Header';
+import LoginForm from './LoginForm';
+import Footer from './Footer';
 
-const LoginPage = () => {
+function LoginPage() {
   return (
-<div> 
-  <Header /> 
-  <LoginForm /> 
-  <Footer /> 
-</div> 
-  )
+    <div>
+      <Header />
+      <LoginForm />
+      <Footer />
+    </div>
+  );
 }
 
-export default LoginPage
+export default LoginPage;
